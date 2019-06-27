@@ -1,0 +1,1 @@
+!function(){var e=document.body,t=document.querySelector(".content-wrap"),n=document.getElementById("open-button"),c=document.getElementById("close-button"),o=!1;function d(){o?classie.remove(e,"show-menu"):classie.add(e,"show-menu"),o=!o}n.addEventListener("click",d),c&&c.addEventListener("click",d),t.addEventListener("click",function(e){var t=e.target;o&&t!==n&&d()})}();

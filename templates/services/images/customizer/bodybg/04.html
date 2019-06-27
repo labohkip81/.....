@@ -1,0 +1,1783 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" class="no-js" lang="en">
+    
+<!-- Mirrored from hassconsult.co.ke/real-estate/templates/services/images/customizer/bodybg/04.jpg by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Jun 2019 21:52:55 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=yes"/>
+		<meta name="HandheldFriendly" content="true" />
+		<meta name="apple-mobile-web-app-capable" content="YES" />
+		<base  />
+		<meta name="robots" content="INDEX, FOLLOW" />
+		<link rel="canonical" href="http://hassconsult.co.ke/" />
+		<link rel="alternate" href="http://hassconsult.co.ke/" hreflang="en" />
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Property Index in kenya, property in kenya,property in kenya,property in nairobi, property to let in kenya, 
+		property for sale in kenya, kenya holiday lettings, 
+		kenya commercial real estate, kenya residential, kenya real estate, kenya homes to rent, kenya real estate agents, 
+		kenya real estate listing, kenya homes for sale, kenya properties, kenya houses for sale, 
+		kenya houses to let, kenya property finder, kenya rental property, kenya property owners,
+		kenya property management, kenya free property search, kenya property search,estate development kenya, 
+		estate developers kenya, real estate developers,real estate development kenya,residential estate kenya,
+		residential properties,commercial property kenya,property in kenya,kenya property consultants" />
+		<meta name="description" content="HassConsult~ Real estate agents offering property to rent, property for sale, property developments, valuation &
+	management Services and the hass property index." />
+		<title>Property in Kenya - Rent & Buy Real Estate: HassConsult</title>
+       
+        <!-- favicon
+        ============================================ -->		
+        <link rel="shortcut icon" type="image/x-icon" href="../../../../../images/favicon.ico">
+        
+  <!-- Google Fonts
+        ============================================ -->		
+        <link href="https://fonts.googleapis.com/css?family=Helvetica:300,400,500,600,700,800" rel="stylesheet"> 
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+		
+		<!-- jquery latest version
+		========================================================= -->	
+		<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+		<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+		<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+		
+        <!-- Bootstrap CSS
+        ============================================ -->		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+ 
+		<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+		
+		<link rel="stylesheet" type="text/css" href="../../../../mobilemenu/dist/css/stylesheet.css">
+
+        <script src="../../../../mobilemenu/src/js/jquery.pushMenu.js"></script>
+        <script src="../../../../mobilemenu/src/js/javascript.js"></script>
+		
+        <!-- This core.css file contents all plugins css file
+        ============================================ -->
+        <link rel="stylesheet" href="../../../../home/css/core.css">
+        
+        <!-- Theme shortcodes/elements style
+        ============================================ -->  
+        <link rel="stylesheet" href="../../../../home/css/shortcode/shortcodes.css">
+		
+		<link rel="stylesheet" href="../../../../demo.css">
+		<link rel="stylesheet" href="../../../../menu_sideslide.css">
+        
+        <!--  Theme main style
+        ============================================ -->  
+        <link rel="stylesheet" href="../../../../style.css">
+        
+        <!-- Responsive CSS
+        ============================================ -->
+        <link rel="stylesheet" href="../../../../home/css/responsive.css">  
+        
+		<!-- Style Customizer CSS
+		============================================ -->
+        <link rel="stylesheet" href="../../../../home/css/style-customizer.css">
+		
+    	<link href="#" data-style="styles" rel="stylesheet">  
+        
+        <!-- Modernizr JS -->
+        <script src="../../../../home/js/vendor/modernizr-2.8.3.min.js"></script>  
+		
+				<script>
+		  $(function() {
+			var items = [ 'Athi River','Bawaya','Bawayu','CBD','Emali','Embakasi','Essaya','Gigiri','Hillview','Hurlingham','Industrial Area','Isinya','Juja','Kabete','Kangundo Road','Karen','Kasarani','Kiambu','Kikuyu','Kileleshwa','Kilimani','Kimana','Kiserian','Kitengela','Kitusuru','Kiwaiyu','Kyuna','Lakeview','Lamu','Langata','Lavington','Loresho','Lower Kabete','Madaraka','Malindi','Milimani','Mkokoni','Mombasa','Mombasa Road','Muthaiga','Nairobi West','Naivasha','Nakuru','New Kitusuru','New Muthaiga','Ngara','Ngong Road','North Coast','Nyari','Pangani','Park Road','Parklands','Redhill','Riara','Ridgeways','Riverside','Rosslyn','Ruiru','Runda','Shela','South B','South C','Spring Valley','Syokimau','Thigiri Ridge','Thika','Thika Road','Tigoni','Upperhill','Vipingo','Westlands','Yaya Centre','Zanzibar' ];
+				
+			function split( val ) {
+			  return val.split( /,\s*/ );
+			}
+			function extractLast( term ) {
+			  return split( term ).pop();
+			}
+		 
+			$( "#search" )
+			  .autocomplete({
+				minLength: 0,
+				source: function( request, response ) {
+				  response( $.ui.autocomplete.filter(
+					items, extractLast( request.term ) ) );
+				},
+				focus: function() {
+				  return false;
+				},
+				select: function( event, ui ) {
+				  var terms = split( this.value );
+				  // remove the current input
+				  terms.pop();
+				  // add the selected item
+				  terms.push( ui.item.value );
+				  // add placeholder to get the comma-and-space at the end
+				  terms.push( "" );
+				  this.value = terms.join( ", " );
+				  return false;
+				}
+			  });
+		  });
+		  
+		  function validate(){
+				var propertytype = document.getElementById("propertytype");
+				var f = propertytype.options[propertytype.selectedIndex].value;
+				var b2 = document.getElementById("bedrooms2");
+				var b1 = document.getElementById("bedrooms1");
+				if(f == 11 || f == 8){
+					b2.disabled="disabled";
+					b1.disabled="disabled";
+				}
+				else{
+					b2.disabled="";
+					b1.disabled="";
+				}
+				
+		  }
+  </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5MDNVR9');</script>
+<!-- End Google Tag Manager -->		
+		<!-- Facebook Pixel Code -->
+		<script>
+		!function(f,b,e,v,n,t,s)
+		{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];
+		s.parentNode.insertBefore(t,s)}(window,document,'script',
+		'https://connect.facebook.net/en_US/fbevents.js');
+		 fbq('init', '550672738773888'); 
+		fbq('track', 'PageView');
+		</script>
+		<noscript>
+		 <img height="1" width="1" 
+		src="https://www.facebook.com/tr?id=550672738773888&amp;ev=PageView&amp;noscript=1"/>
+		</noscript>
+		<!-- End Facebook Pixel Code -->
+    </head>  
+    <body>
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5MDNVR9"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->  
+		<div class="site">
+            <div class="site-outer">
+				<nav class="mp-menu mp-cover" id="mp-menu">
+                    <div class="mp-level">
+                        <ul>
+                            <li><a title="CLOSE X" href="javascript:;" class="mp-back"><button class="close-button" id="close-button">Close Menu</button></a></li>
+							<li ><a href="#" id="mobilemenutop"><b>Menu</b></a></li>
+                            <li class="mega-parent active"> <a href="../../../../../property-developments-in-kenya.html"><i class="fa fa-university"></i> Developments</a></li>
+							<li><a href="../../../../../property-for-sale.html"><i class="fa fa-home"></i> Buy</a></li>
+							<li><a href="../../../../../property-to-let.html"><i class="fa fa-home"></i> Rent</a></li>
+                            <li>
+                                <a title="Menu item 2" href="javascript:;"><i class="fa fa-bar-chart"></i> Hass Index <i class="glyphicon glyphicon-menu-right"></i></a>
+                                <div class="mp-level">
+                                <a href="javascript:;" class="mp-back"><button class="close-button" id="close-button">Close Menu</button></a></a>
+                                
+                                    <ul class="sub-menu third-level">
+										<li><a id="mobilemenutop" href="../../../../../index.php/hass-index.html"><b>Hass Index</b></a></li>
+                                        <li><a href="../../../../../hass-index/12-about-the-hass-index2ffc.html?typ=2&amp;layout=0"><i class="fa fa-info-circle"></i> About The Hass Index</a><li>
+										<li><a href="../../../../../hass-index/13-the-hass-land-index5d0d.html?typ=2&amp;layout=2"><i class="fa fa-line-chart"></i> The Hass Land Price Index</a><li>
+										<li><a href="../../../../../hass-index/14-the-hass-sales-index4142.html?typ=2&amp;layout=3"><i class="fa fa-line-chart"></i> The Hass Sale Price Index</a><li>
+										<li><a href="../../../../../hass-index/15-the-hass-rental-indexb8d0.html?typ=2&amp;layout=4"><i class="fa fa-line-chart"></i> The Hass Rental Price Index</a><li>
+										<li><a href="../../../../../hass-index/16-report-archivesf80f.html?typ=1&amp;layout=1"><i class="fa fa-file-pdf-o"></i> Report Archives</a><li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="../../../../../contacts.html"><i class="fa fa-phone"></i> Contact</a></li>	
+                        </ul>
+                    </div>
+                </nav>
+				<!--Main Wrapper Start-->
+				<div class="wrapper bg-white fix">
+					<!--Bg White Start-->
+					<div class="bg-white">
+										 <!--Header Area Start-->
+						<header class="header-area fixed">
+							<div id="sticky-header">
+								<div class="container">
+									<div class="row">
+										<div class="col-md-2 col-sm-6 col-xs-6">
+											<div class="logo"><a href="../../../../../index.html"><img src="../../../../../images/logo/logo.png" alt="HassConsult Real Estate, property in kenya, property for sale, property to let"></a></div>
+										</div>
+										<div class="col-md-10 hidden-sm hidden-xs">
+											<div class="pull_right">
+												<nav id="primary-menu" class="height-large">              
+													<ul class="main-menu text-right">
+														<li class="mega-parent active"><a href="../../../../../property-developments-in-kenya.html">Developments</a></li>
+														<li><a href="../../../../../property-for-sale.html">Buy</a></li>
+														<li><a href="../../../../../property-to-let.html">Rent</a></li>
+														<li><a href="../../../../../hass-index.html">Hass Index</a>
+															<ul>
+																<li><a href="../../../../../hass-index/12-about-the-hass-index2ffc.html?typ=2&amp;layout=0">About The Hass Index</a><li>
+																<li><a href="../../../../../hass-index/13-the-hass-land-index5d0d.html?typ=2&amp;layout=2">The Hass Land Price Index</a><li>
+																<li><a href="../../../../../hass-index/14-the-hass-sales-index4142.html?typ=2&amp;layout=3">The Hass Sale Price Index</a><li>
+																<li><a href="../../../../../hass-index/15-the-hass-rental-indexb8d0.html?typ=2&amp;layout=4">The Hass Rental Price Index</a><li>
+																<li><a href="../../../../../hass-index/16-report-archivesf80f.html?typ=1&amp;layout=1">Report Archives</a><li>
+															</ul>
+														</li>
+														<li><a href="../../../../../contacts.html">Contact</a></li>
+													</ul>
+												</nav>
+											</div>
+										</div>
+										
+										<div class="col-lg-12 col-md-12 col-sm-6 col-xs-6 hidden-md hidden-lg"><button href="javascript:;" class="menu-button" id="trigger">Open Menu</button></div>
+
+									</div>
+								</div>
+							</div>
+							
+						</header>
+						<!-- End of Header Area -->   
+						<!--Start of Slider Area-->
+						<div class="slider-area">
+							<div class="preview-2">
+								<div id="nivoslider" class="slides hidden-xs">	
+								<img src="../../../../../images/slider/enaki.jpg" alt="Enaki, development in kenya, Vantage Square in kenya, propery for sale" title="#slider-6-caption6"/>
+									<img src="../../../../../images/slider/riverideslide.jpg" alt="Riverside Square, development in kenya, riverside Square in kenya, propery for sale on riverside drive" title="#slider-5-caption5"/>			
+									<img src="../../../../../images/slider/3.jpg" alt="Montave in kenya, montave development kenya, property for sale montave, property for sale nairobi" title="#slider-1-caption1"/>
+									<img src="../../../../../images/slider/2.jpg" alt="9oak in kenya, 9oak development kenya, buy property in kenya" title="#slider-1-caption2"/>
+									 <img src="../../../../../images/slider/6.jpg" alt="EdenVille Two in kiambu, EdenVille Two in nairobi, EdenVille Two property for sale" title="#slider-1-caption3"/>
+									  <img src="../../../../../images/slider/7.jpg" alt="astoria in kenya,astoria development in kenya, astoria property sale" title="#slider-1-caption4"/>
+
+								</div> 
+								 <div id="nivoslider2" class="slides hidden-lg hidden-md hidden-sm">
+									<img src="../../../../../images/enakismall.jpg" alt="enaki development in nairobi" title="#slider-6-caption6"/>
+									<img src="../../../../../images/riverideslidesmall.jpg" alt="Riverside Square in nairobi" title="#slider-5-caption5"/>								
+									<img src="../../../../../images/montave09.jpg" alt="montave sale kenya" title="#slider-1-caption1"/>
+									<img src="../../../../../images/astoria-8.jpg" alt="astoria sale kenya" title="#slider-1-caption4"/>
+									<img src="../../../../../images/9Oak-8.jpg" alt="9oak sale kenya" title="#slider-1-caption2"/>
+								</div> 
+								<script>
+								
+								function myFunction() {
+									var x = document.getElementById("txtshow1");
+									if (x.style.display === "none") {
+										x.style.display = "block";
+									} else {
+										x.style.display = "none";
+									}
+								}
+								function myFunction2() {
+									var x = document.getElementById("txtshow2");
+									if (x.style.display === "none") {
+										x.style.display = "block";
+									} else {
+										x.style.display = "none";
+									}
+								}
+								function myFunction3() {
+									var x = document.getElementById("txtshow3");
+									if (x.style.display === "none") {
+										x.style.display = "block";
+									} else {
+										x.style.display = "none";
+									}
+								}
+								function myFunction4() {
+									var x = document.getElementById("txtshow4");
+									if (x.style.display === "none") {
+										x.style.display = "block";
+									} else {
+										x.style.display = "none";
+									}
+								}
+								function myFunction5() {
+									var x = document.getElementById("txtshow5");
+									if (x.style.display === "none") {
+										x.style.display = "block";
+									} else {
+										x.style.display = "none";
+									}
+								}
+								function myFunctiondev() {
+									var x = document.getElementById("content-h");
+									x.style.display = "none";
+								}
+								function myFunctiondev2() {
+									var x = document.getElementById("content-h");
+									x.style.display = "block";
+								}
+								function myFunctiondevs() {
+									var x = document.getElementById("content-hs");
+									x.style.display = "none";
+								}
+								function myFunctiondev2s() {
+									var x = document.getElementById("content-hs");
+									x.style.display = "block";
+								}
+								function myFunctiondev1b() {
+									var x = document.getElementById("content-h-1b");
+									x.style.display = "none";
+								}
+								function myFunctiondev21b() {
+									var x = document.getElementById("content-h-1b");
+									x.style.display = "block";
+								}
+								function myFunctiondev1c() {
+									var x = document.getElementById("content-h-1c");
+									x.style.display = "none";
+								}
+								function myFunctiondev21c() {
+									var x = document.getElementById("content-h-1c");
+									x.style.display = "block";
+								}
+								
+								
+								function myFunctiondev2a() {
+									var x = document.getElementById("content-h-2a");
+									x.style.display = "none";
+								}
+								function myFunctiondev22a() {
+									var x = document.getElementById("content-h-2a");
+									x.style.display = "block";
+								}
+								function myFunctiondev2b() {
+									var x = document.getElementById("content-h-2b");
+									x.style.display = "none";
+								}
+								function myFunctiondev22b() {
+									var x = document.getElementById("content-h-2b");
+									x.style.display = "block";
+								}
+								function myFunctiondev2c() {
+									var x = document.getElementById("content-h-2c");
+									x.style.display = "none";
+								}
+								function myFunctiondev22c() {
+									var x = document.getElementById("content-h-2c");
+									x.style.display = "block";
+								}
+								function myFunctiondev2cs() {
+									var x = document.getElementById("content-h-2cs");
+									x.style.display = "none";
+								}
+								function myFunctiondev22cs() {
+									var x = document.getElementById("content-h-2cs");
+									x.style.display = "block";
+								}
+								
+								
+								
+								function myFunctiondev3a() {
+									var x = document.getElementById("content-h-3a");
+									x.style.display = "none";
+								}
+								function myFunctiondev23a() {
+									var x = document.getElementById("content-h-3a");
+									x.style.display = "block";
+								}
+								function myFunctiondev3as() {
+									var x = document.getElementById("content-h-3as");
+									x.style.display = "none";
+								}
+								function myFunctiondev23as() {
+									var x = document.getElementById("content-h-3as");
+									x.style.display = "block";
+								}
+								function myFunctiondev3b() {
+									var x = document.getElementById("content-h-3b");
+									x.style.display = "none";
+								}
+								function myFunctiondev23b() {
+									var x = document.getElementById("content-h-3b");
+									x.style.display = "block";
+								}
+								function myFunctiondev3c() {
+									var x = document.getElementById("content-h-3c");
+									x.style.display = "none";
+								}
+								function myFunctiondev23c() {
+									var x = document.getElementById("content-h-3c");
+									x.style.display = "block";
+								}
+								</script>
+								<script>
+								$(document).ready(function(){
+									//$("#txtshow").hide();
+									$("#txtshow1").hide();
+									$("#txtshow2").hide();
+									$("#txtshow3").hide();
+									$("#txtshow4").hide();
+									$("#txtshow5").hide();
+									//$("#slideheader").click(function(){
+										//$("#txtshow").toggle();
+									//});
+									//$("#slideheader1").click(function(){
+									//	$("#txtshow1").toggle();
+									//});
+								});
+								</script>
+								<div id="slider-6-caption6" class="nivo-html-caption nivo-caption">
+									<div class="banner-content slider-1">
+										<div class="container">
+											<div class="row">
+												<div class="col-md-12 margin-zero">
+													<div class="text-content-wrapper">
+														<div class="text-content">
+															<div class="banner-readmore wow flipInX mt-17 dropdown-1" data-wow-duration="2000ms" data-wow-delay=".2s">
+																	   
+																<div class="button slider-btn" id="slideheader1">
+																<div onclick="myFunction()" class="slide-header">Enaki Town</div>
+																	<div class="slidetext" id="txtshow1">
+																	<div style="font-weight:bold;color:#fecf87;">
+																	From Kshs 6.48M
+																	</div>
+																	Right on the edge of Nyari, Gigiri and Kitisuru, Enaki is an exquisite new addition 
+																	to its idyllic suburban surround. The vision for this holistic 22-acre resort development is
+																	a fusion of nature
+
+																	<div style="color:#fecf87;">
+																	<a style="color:#fecf87;" href="../../../../../property-developments-kenya779c.html?ref_no=MC/2020">View Property ></a>
+																	</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id="slider-5-caption5" class="nivo-html-caption nivo-caption">
+									<div class="banner-content slider-1">
+										<div class="container">
+											<div class="row">
+												<div class="col-md-12 margin-zero">
+													<div class="text-content-wrapper">
+														<div class="text-content">
+															<div class="banner-readmore wow flipInX mt-17 dropdown-1" data-wow-duration="2000ms" data-wow-delay=".2s">
+																	   
+																<div class="button slider-btn" id="slideheader1">
+																<div onclick="myFunction()" class="slide-header">Riverside Square</div>
+																	<div class="slidetext" id="txtshow1">
+																	<div style="font-weight:bold;color:#fecf87;">
+																	From Kshs 9.5M
+																	</div>
+																	An unprecedented concept set to transform Riverside Drive, Riverside Square 
+																	is a mixed use marvel that brings together shopping, working, living and 
+																	leisure.
+																	<div style="color:#fecf87;">
+																	<a style="color:#fecf87;" href="../../../../../property-developments-kenya8e48?ref_no=2220">View Property ></a>
+																	</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id="slider-1-caption1" class="nivo-html-caption nivo-caption">
+									<div class="banner-content slider-1">
+										<div class="container">
+											<div class="row">
+												<div class="col-md-12 margin-zero">
+													<div class="text-content-wrapper">
+														<div class="text-content">
+															<div class="banner-readmore wow flipInX mt-17 dropdown-1" data-wow-duration="2000ms" data-wow-delay=".2s">
+																	   
+																<div class="button slider-btn" id="slideheader1">
+																<div onclick="myFunction()" class="slide-header">Montave</div>
+																	<div class="slidetext" id="txtshow1">
+																	<div style="font-weight:bold;color:#fecf87;">
+																	From Kshs 15.5M
+																	</div>
+																	A monumental masterpiece set to deliver Nairobi's most prestigious address. 
+																	Montave offers an intricate mix of shopping, working, visiting, living and leisure, 
+																	which fuses all facets of urban life, rising over the city 
+																	<div style="color:#fecf87;">
+																	<a style="color:#fecf87;" href="../../../../../property-developments-kenyac9b2.html?ref_no=MC/1888">View Property ></a>
+																	</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id="slider-1-caption2" class="nivo-html-caption nivo-caption">
+									<div class="banner-content slider-2">
+										<div class="container">
+											<div class="row">
+												<div class="col-md-12 margin-zero">
+													<div class="text-content-wrapper">
+														<div class="text-content">
+															<div class="banner-readmore wow flipInX mt-17 dropdown-1" data-wow-duration="2000ms" data-wow-delay=".2s">
+																	   
+																<div class="button slider-btn" id="slideheader2">
+																<div onclick="myFunction2()" class="slide-header">9oak</div>
+																	<div class="slidetext" id="txtshow2">
+																	<div style="font-weight:bold;color:#fecf87;">
+																	From Kshs 6.95M
+																	</div>
+																	9 Oak residences reflect class and quality where all apartments are fully fitted and 
+																	furnished to hotel standards. All furniture, appliances, electronics, linens, accessories, 
+																	crockery and cutlery is included
+																	<div style="color:#fecf87;">
+																	<a style="color:#fecf87;" href="../../../../../property-developments-kenya6a70.html?ref_no=MC/2103">View Property ></a>
+																	</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id="slider-1-caption3" class="nivo-html-caption nivo-caption">
+									<div class="banner-content slider-2">
+										<div class="container">
+											<div class="row">
+												<div class="col-md-12 margin-zero">
+													<div class="text-content-wrapper">
+														<div class="text-content">
+															<div class="banner-readmore wow flipInX mt-17 dropdown-1" data-wow-duration="2000ms" data-wow-delay=".2s">
+																	   
+																<div class="button slider-btn" id="slideheader3">
+																<div onclick="myFunction3()" class="slide-header">Edenville Two</div>
+																	<div class="slidetext" id="txtshow3">
+																	<div style="font-weight:bold;color:#fecf87;">
+																	From Kshs 18.45M
+																	</div>
+																	EdenVille Two is part of the greater EdenVille community, a gated development with 3 and 4 
+																	bed roomed  semi-detached maisonettes and 4 bed villas on a vast 42 acres in a leafy part of Kiambu road
+																	<div style="color:#fecf87;">
+																	<a style="color:#fecf87;" href="../../../../../property-developments-kenya4ba2.html?ref_no=MC/1674">View Property ></a>
+																	</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id="slider-1-caption4" class="nivo-html-caption nivo-caption">
+									<div class="banner-content slider-2 margin-zero">
+										<div class="container">
+											<div class="row">
+												<div class="col-md-12">
+													<div class="text-content-wrapper">
+														<div class="text-content">
+															<div class="banner-readmore wow flipInX mt-17 dropdown-1" data-wow-duration="2000ms" data-wow-delay=".2s">
+																	   
+																<div class="button slider-btn" id="slideheader4">
+																<div onclick="myFunction4()" class="slide-header">Astoria</div>
+																	<div class="slidetext" id="txtshow4">
+																	<div style="font-weight:bold;color:#fecf87;">
+																	From Kshs 6.5M
+																	</div>
+																	 Astoria encompasses masterful luxury in these delightful 1 and 2 bedroom 
+																	 apartments on Mbaazi Avenue in Lavington, a stones throw from The Junction Shopping Mall 
+																	 and the bustling and newly expanded Ngong Road.
+																	<div style="color:#fecf87;">
+																	<a style="color:#fecf87;" href="../../../../../property-developments-kenyaea8f.html?ref_no=MC/1850">View Property ></a>
+																	</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+				
+							</div>
+						</div>
+						<!--End of Slider Area-->
+						<!--Start of Find Area-->
+						<div class="find-area pt-72 pb-72 bg-light">
+							<div class="container">
+								<div class="row" id="searchborderxs2">
+									<div class="col-md-1">
+									 &nbsp;
+									</div>
+									<div class="col-md-10" id="searchborder">
+										<form action="http://hassconsult.co.ke/real-estate/property-search" class="col-md-12" method="POST" style="padding-left:0px;padding-right:0px;">
+											<div class="col-md-10">
+			
+												<div class="col-md-4 pr-pl-5" style="min-height:70px;">
+													<div class="select" >
+														<select name="intent">
+															<option value="">Buy or Rent</option>
+															<option value="1">Buy</option>
+															<option value="2">Rent</option>
+														</select>
+													</div>
+												</div> 
+												<div class="col-md-8 pr-src pr-pl-5" style="min-height:70px;">
+													<div>
+														<input id="search" class="select" style="font-size:13px;color:#000;" size="50" name="location" placeholder="Location" />
+													</div>
+													
+												</div>
+										
+												<div class="col-md-4 pr-pl-5" style="min-height:70px;">
+													<div class="select">
+														<select name="type" id="propertytype" onchange="validate()">
+															<option value="">Property Type</option>
+															<option value="1">Apartment</option>
+															<option value="17">House</option>
+															<option value="11">Land</option>
+															<option value="8">Office</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-md-2 col-xs-6 pr-pl-5" style="min-height:70px;">
+													<div class="select">
+														<select name="min_bed" id="bedrooms1">
+															<option value="">Min Beds</option>
+															<option value="1">1 Beds</option>
+															<option value="2">2 Beds</option>
+															<option value="3">3 Beds</option>
+															<option value="4">4 Beds</option>
+															<option value="5">5 Beds</option>
+															<option value="6">6 Beds</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-md-2 col-xs-6 pr-pl-5" style="min-height:70px;">
+													<div class="select">
+														<select name="max_bed" id="bedrooms2">
+															<option value="">Max Beds</option>
+															<option value="1">1 Beds</option>
+															<option value="2">2 Beds</option>
+															<option value="3">3 Beds</option>
+															<option value="4">4 Beds</option>
+															<option value="5">5 Beds</option>
+															<option value="6">6 Beds</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-md-2 col-xs-6 pr-pl-5" style="min-height:70px;">
+													<div class="select">
+														<select name="min_price">
+															<option value="">Min Price</option>
+															<option value="50000">50,000</option>
+															<option value="100000">100,000</option>
+															<option value="250000">250,000</option>
+															<option value="500000">500,000</option>
+															<option value="1000000">1M</option>
+															<option value="2500000">2.5M</option>
+															<option value="5000000">5M</option>
+															<option value="7500000">7.5M</option>
+															<option value="10000000">10M</option>
+															<option value="12500000">12.5M</option>
+															<option value="15000000">15M</option>
+															<option value="17500000">17.5M</option>
+															<option value="20000000">20M</option>
+															<option value="22500000">22.5M</option>
+															<option value="25000000">25M</option>
+															<option value="27500000">27.5M</option>
+															<option value="30000000">30M</option>
+															<option value="32500000">32.5M</option>
+															<option value="35000000">35M</option>
+															<option value="37500000">37.5M</option>
+															<option value="40000000">40M</option>
+															<option value="42500000">42.5M</option>
+															<option value="45000000">45M</option>
+															<option value="47500000">47.5M</option>
+															<option value="50000000">50M</option>
+															<option value="52500000">52.5M</option>
+															<option value="55000000">55M</option>
+															<option value="57500000">57.5M</option>
+															<option value="60000000">60M</option>
+															<option value="62500000">62.5M</option>
+															<option value="65000000">65M</option>
+															<option value="67500000">67.5M</option>
+															<option value="70000000">70M</option>
+															<option value="72500000">72.5M</option>
+															<option value="75000000">75M</option>
+															<option value="77500000">77.5M</option>
+															<option value="80000000">80M</option>
+															<option value="82500000">82.5M</option>
+															<option value="85000000">85M</option>
+															<option value="87500000">87.5M</option>
+															<option value="90000000">90M</option>
+															<option value="92500000">92.5M</option>
+															<option value="95000000">95M</option>
+															<option value="97500000">97.5M</option>
+															<option value="100000000">100M</option>
+															<option value="100000001">100M +</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-md-2 col-xs-6 pr-pl-5" style="min-height:70px;">
+													<div class="select">
+														<select name="max_price">
+															<option value="">Max Price</option>
+															<option value="50000">50,000</option>
+															<option value="100000">100,000</option>
+															<option value="250000">250,000</option>
+															<option value="500000">500,000</option>
+															<option value="1000000">1M</option>
+															<option value="2500000">2.5M</option>
+															<option value="5000000">5M</option>
+															<option value="7500000">7.5M</option>
+															<option value="10000000">10M</option>
+															<option value="12500000">12.5M</option>
+															<option value="15000000">15M</option>
+															<option value="17500000">17.5M</option>
+															<option value="20000000">20M</option>
+															<option value="22500000">22.5M</option>
+															<option value="25000000">25M</option>
+															<option value="27500000">27.5M</option>
+															<option value="30000000">30M</option>
+															<option value="32500000">32.5M</option>
+															<option value="35000000">35M</option>
+															<option value="37500000">37.5M</option>
+															<option value="40000000">40M</option>
+															<option value="42500000">42.5M</option>
+															<option value="45000000">45M</option>
+															<option value="47500000">47.5M</option>
+															<option value="50000000">50M</option>
+															<option value="52500000">52.5M</option>
+															<option value="55000000">55M</option>
+															<option value="57500000">57.5M</option>
+															<option value="60000000">60M</option>
+															<option value="62500000">62.5M</option>
+															<option value="65000000">65M</option>
+															<option value="67500000">67.5M</option>
+															<option value="70000000">70M</option>
+															<option value="72500000">72.5M</option>
+															<option value="75000000">75M</option>
+															<option value="77500000">77.5M</option>
+															<option value="80000000">80M</option>
+															<option value="82500000">82.5M</option>
+															<option value="85000000">85M</option>
+															<option value="87500000">87.5M</option>
+															<option value="90000000">90M</option>
+															<option value="92500000">92.5M</option>
+															<option value="95000000">95M</option>
+															<option value="97500000">97.5M</option>
+															<option value="100000000">100M</option>
+															<option value="100000001">100M +</option>
+														</select>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-2 col-xs-12" style="padding-left:0px;">
+												<div class="col-md-12 pl_search"><button name="search_price" type="submit" class="button search_price lemon pull_right ml-30"><span><span>SEARCH</span></span></button></div>
+												
+												<div class="col-md-12 suburbpad">
+													<div class="col-md-2 suburbcheck"><input type="checkbox" name="suburbs" style="float:left;width:15px;height:15px;" checked> </div>
+													<div class="col-md-10 suburbtxt"> Surrounding Suburbs</div>
+												</div> 
+											</div>
+										</form>
+									</div>
+									<div class="col-md-1">
+										&nbsp;
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- End of Find Area -->
+					
+						<!--Start of Service Area-->
+						<div class="service-area pb-80">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-1">
+										&nbsp;
+									</div>
+									<div class="col-md-10">
+										<div class="section-title mb-38 mt-31 text-center" style="padding-top:40px;">
+											
+
+<div class="custom"  >
+	<h2 class="uppercase mb-20">New Developments</h2>
+<p class="pb-19" style="font-size: 13px;">HassConsult offers investment-grade developments all over the City. The developments we offer have been conceptualized by our development team to be high quality assets using a data-driven approach in planning and design, that gears property for high rental returns and an escalated rate of capital growth.</p></div>
+
+										</div>
+									</div>
+									<div class="col-md-1">
+										&nbsp;
+									</div>
+								</div>
+								
+								<div class="row pl-20">
+									<div id="devlg6" class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="padding-left:0px;padding-right:0px;">
+										<div class="single-service pull_left">
+											
+
+<div class="custom"  >
+	<div class="single-service-image pull_left mr-20 hidden-xs"><a class="block white-hover" href="../../../../../property-developments-kenyaeba9.html?ref_no=MC/2155"><img class="imgdev" src="../../../../../images/developments/enakidev.jpg" alt="" /></a> <span class="dev-name" id="content-h-3a">Enaki Town</span>
+<div class="dev-text-large" onmouseover="myFunctiondev3a()" onmouseout="myFunctiondev23a()">
+<div>
+<div class="dev-content-large">
+<div class="text-m">
+<div class="dev-content-header-large">Enaki Town</div>
+<div class="text-j">Right on the edge of Nyari, Gigiri and Kitisuru, Enaki is an exquisite new addition to its idyllic suburban surround. The vision for this holistic 22-acre resort..</div>
+<br /> <a href="../../../../../property-developments-kenya779c.html?ref_no=MC/2020"><button class="button search_price lemon" style="background: #fecf87 none repeat scroll 0 0; color: #071822;" name="search_price" type="button">Read More</button></a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="single-service-image pull_left mr-20 hidden-sm hidden-lg hidden-md"><a class="block white-hover" href="../../../../../property-developments-kenya779c.html?ref_no=MC/2020"><img class="imgdev" src="../../../../../images/developments/enakismallfit.jpg" alt="" /></a> <span class="dev-name" id="content-h-3as">Enaki Town</span>
+<div class="dev-text-small" onmouseover="myFunctiondev3as()" onmouseout="myFunctiondev23as()">
+<div>
+<div class="dev-content-small">
+<div class="text-m">
+<div class="dev-content-header-small">Enaki Twon</div>
+<div class="text-j">Right on the edge of Nyari, Gigiri and Kitisuru, Enaki is an exquisite new addition to its idyllic suburban surround. The vision for this holistic 22-acre resort..</div>
+<br /><a href="../../../../../property-developments-kenya779c.html?ref_no=MC/2020"><button class="button search_price lemon" style="background: #fecf87 none repeat scroll 0 0; color: #071822;" name="search_price" type="button">Read More</button></a></div>
+</div>
+</div>
+</div>
+</div></div>
+
+										</div>
+									</div>
+									<div id="devlg6" class="col-lg-3 col-md-3 col-sm-3 col-xs-12" style="padding-left:0px;padding-right:0px;">
+										<div class="single-service pull_left">
+											
+
+<div class="custom"  >
+	<div class="single-service-image pull_left mr-20"><a class="block white-hover" href="../../../../../property-developments-kenyac0ef.html?ref_no=MC/1940"><img class="imgdev" src="../../../../../images/developments/dev2.jpg" alt="" /></a> <span class="dev-name" id="content-h-1b">Nasidai</span>
+<div class="dev-text-small" onmouseover="myFunctiondev1b()" onmouseout="myFunctiondev21b()">
+<div>
+<div class="dev-content-small">
+<div class="text-m">
+<div class="dev-content-header-small">Nasidai</div>
+<div class="text-j">A private and exclusive gated community offering 8 luxurious 4 bed spacious townhouses spanning 3,940 sq. ft each on a 0.76 acre plot.</div>
+<br /><a href="../../../../../property-developments-kenyac0ef.html?ref_no=MC/1940"><button class="button search_price lemon" style="background: #fecf87 none repeat scroll 0 0; color: #071822;" name="search_price" type="button">Read More</button></a></div>
+</div>
+</div>
+</div>
+</div></div>
+
+										</div>
+									</div>
+									<div id="devlg6" class="col-lg-3 col-md-3 col-sm-3 col-xs-12" style="padding-left:0px;padding-right:0px;">
+										<div class="single-service pull_left">
+											
+
+<div class="custom"  >
+	<div class="single-service-image pull_left mrr-20"><a class="block white-hover" href="../../../../../property-developments-kenyad95d.html?ref_no=MC/2030"><img class="imgdev" src="../../../../../images/developments/avana.jpg" alt="" /></a> <span class="dev-name" id="content-h-1c">Avana</span>
+<div class="dev-text-small" onmouseover="myFunctiondev1c()" onmouseout="myFunctiondev21c()">
+<div>
+<div class="dev-content-small">
+<div class="text-m">
+<div class="dev-content-header-small">Avana</div>
+<div class="text-j">Distinctively designed 2-bed apartments in an Urban address within walking distance from the Junction Shopping Mall spanning approximately 1,150 sq. ft each.</div>
+<br /><a href="../../../../../property-developments-kenyad95d.html?ref_no=MC/2030"><button class="button search_price lemon" style="background: #fecf87 none repeat scroll 0 0; color: #071822;" name="search_price" type="button">Read More</button></a></div>
+</div>
+</div>
+</div>
+</div></div>
+
+										</div>
+									</div>
+								</div>
+								<div class="row pt-pl-20">
+									<div id="devlg6" class="col-lg-3 col-md-3 col-sm-3 col-xs-12" style="padding-left:0px;padding-right:0px;">
+										<div class="single-service pull_left">
+											
+
+<div class="custom"  >
+	<div class="single-service-image pull_left mr-20"><a class="block white-hover" href="../../../../../property-developments-kenyaa6ba.html?ref_no=MC/1920"><img class="imgdev" src="../../../../../images/developments/enclave.jpg" alt="" /></a> <span class="dev-name" id="content-h-2a">The Enclave</span>
+<div class="dev-text-small" onmouseover="myFunctiondev2a()" onmouseout="myFunctiondev22a()">
+<div>
+<div class="dev-content-small">
+<div class="text-m">
+<div class="dev-content-header-small">The Enclave</div>
+<div class="text-j">Conveniently located on off Dennis Pritt Road, an exclusive development of 106 luxury apartments in a sought after location, next to the renown Palacina Hotel.</div>
+<br /> <a href="../../../../../property-developments-kenyaa6ba.html?ref_no=MC/1920"><button class="button search_price lemon" style="background: #fecf87 none repeat scroll 0 0; color: #071822;" name="search_price" type="button">Read More</button></a></div>
+</div>
+</div>
+</div>
+</div></div>
+
+										</div>
+									</div>
+									<div id="devlg6" class="col-lg-3 col-md-3 col-sm-3 col-xs-12"style="padding-left:0px;padding-right:0px;">
+										<div class="single-service pull_left">
+											
+
+<div class="custom"  >
+	<div class="single-service-image pull_left mr-20"><a class="block white-hover" href="../../../../../property-developments-kenyad800.html?ref_no=MC/2200"><img class="imgdev" src="../../../../../images/developments/fumba-home.jpg" alt="" /></a> <span class="dev-name" id="content-h-2b">Fumba Town Development</span>
+<div class="dev-text-small" onmouseover="myFunctiondev2b()" onmouseout="&quot;myFunctiondev22b()">
+<div>
+<div class="dev-content-small">
+<div class="text-m">
+<div class="dev-content-header-small">Fumba Town Development</div>
+<div class="text-j">Fumba Town is built right on the shore of the Indian Ocean, offering a breathtaking sea view for each house. It is located 5Km from Zanzibar International Airport</div>
+<br /><a href="../../../../../property-developments-kenyad800.html?ref_no=MC/2200"><button class="button search_price lemon" style="background: #fecf87 none repeat scroll 0 0; color: #071822;" name="search_price" type="button">Read More</button></a></div>
+</div>
+</div>
+</div>
+</div></div>
+
+										</div>
+									</div>
+									<div id="devlg6" class="col-lg-6 col-md-6 col-sm-6 col-xs-12"style="padding-left:0px;padding-right:0px;">
+										<div class="single-service pull_left">
+											
+
+<div class="custom"  >
+	<div class="single-service-image pull_left mrr-20 hidden-xs"><a class="block white-hover" href="../../../../../property-developments-kenya4ba2.html?ref_no=MC/1674"><img class="imgdev" src="../../../../../images/developments/edenville.jpg" alt="" /></a> <span class="dev-name" id="content-h-2c">Edenville</span>
+<div class="dev-text-large" onmouseover="myFunctiondev2c()" onmouseout="myFunctiondev22c()">
+<div>
+<div class="dev-content-large">
+<div class="text-m">
+<div class="dev-content-header-large">Edenville</div>
+<div class="text-j">Homely villas &amp; maisonettes from 1,710sq.ft to 1,870sq.ft sit on a 90ft X 30ft plots and the villas are 2,465sq.ft sit on 1/8 acre plots.</div>
+<br /><a href="../../../../../property-developments-kenya4ba2.html?ref_no=MC/1674"><button class="button search_price lemon" style="background: #fecf87 none repeat scroll 0 0; color: #071822;" name="search_price" type="button">Read More</button></a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="single-service-image pull_left mr-20 hidden-sm hidden-lg hidden-md"><a class="block white-hover" href="../../../../../property-developments-kenya4ba2.html?ref_no=MC/1674"><img class="imgdev" src="../../../../../images/developments/edenville-small.jpg" alt="" /></a> <span class="dev-name" id="content-h-2cs">Edenville</span>
+<div class="dev-text-small" onmouseover="myFunctiondev2cs()" onmouseout="myFunctiondev22cs()">
+<div>
+<div class="dev-content-small">
+<div class="text-m">
+<div class="dev-content-header-small">Edenville</div>
+<div class="text-j">Homely villas &amp; maisonettes from 1,710sq.ft to 1,870sq.ft sit on a 90ft X 30ft plots and the villas are 2,465sq.ft sit on 1/8 acre plots.</div>
+<br /><a href="../../../../../property-developments-kenya4ba2.html?ref_no=MC/1674"><button class="button search_price lemon" style="background: #fecf87 none repeat scroll 0 0; color: #071822;" name="search_price" type="button">Read More</button></a></div>
+</div>
+</div>
+</div>
+</div></div>
+
+										</div>
+									</div>
+								</div>
+								<div class="row pt-pl-20" >
+									<div id="devlg6" class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="padding-left:0px;padding-right:0px;">
+										<div class="single-service pull_left">
+											
+
+<div class="custom"  >
+	<div class="single-service-image pull_left mr-20 hidden-xs"><a class="block white-hover" href="../../../../../property-developments-kenya8e48?ref_no=2220"><img class="imgdev" src="../../../../../images/developments/riversidedev.jpg" alt="" /></a> <span class="dev-name" id="content-h">Riverside Square</span>
+<div class="dev-text-large" onmouseover="myFunctiondev()" onmouseout="myFunctiondev2()">
+<div>
+<div class="dev-content-large">
+<div class="text-m">
+<div class="dev-content-header-large">Riverside Square</div>
+<div class="text-j">An unprecedented concept set to transform Riverside Drive, Riverside Square is a mixed use marvel that brings together shopping, working, living and leisure.</div>
+<br /> <a href="../../../../../property-developments-kenya8e48?ref_no=2220"><button class="button search_price lemon" style="background: #fecf87 none repeat scroll 0 0; color: #071822;" name="search_price" type="button">Read More</button></a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="single-service-image pull_left mr-20 hidden-sm hidden-lg hidden-md"><a class="block white-hover" href="../../../../../property-developments-kenya8e48?ref_no=2220"><img class="imgdev" src="../../../../../images/developments/riversidedevsmall.html" alt="" /></a> <span class="dev-name" id="content-hs">Riverside Square</span>
+<div class="dev-text-small" onmouseover="myFunctiondevs()" onmouseout="myFunctiondev2s()">
+<div>
+<div class="dev-content-small">
+<div class="text-m">
+<div class="dev-content-header-small">Riverside Square</div>
+<div class="text-j">An unprecedented concept set to transform Riverside Drive, Riverside Square is a mixed use marvel that brings together shopping, working, living and leisure.</div>
+<br /><a href="../../../../../property-developments-kenya8e48?ref_no=2220"><button class="button search_price lemon" style="background: #fecf87 none repeat scroll 0 0; color: #071822;" name="search_price" type="button">Read More</button></a></div>
+</div>
+</div>
+</div>
+</div></div>
+
+										</div>
+									</div>
+									<div id="devlg6" class="col-lg-3 col-md-3 col-sm-3 col-xs-12" style="padding-left:0px;padding-right:0px;">
+										<div class="single-service pull_left">
+											
+
+<div class="custom"  >
+	<div class="single-service-image pull_left mr-20"><a class="block white-hover" href="../../../../../property-developments-kenya7b34.html?ref_no=MC/2211"><img class="imgdev" src="../../../../../images/developments/volairesmall.jpg" alt="" /></a> <span class="dev-name" id="content-h-3b">Volaire</span>
+<div class="dev-text-small" onmouseover="myFunctiondev3b()" onmouseout="myFunctiondev23b()">
+<div>
+<div class="dev-content-small">
+<div class="text-m">
+<div class="dev-content-header-small">Volaire</div>
+<div class="text-j">Own an ultra-modern 3 bedroom apartment, 2 or 4 bedroom penthouse offering luxury living in a serene suburb.</div>
+<br /><a href="../../../../../property-developments-kenya7b34.html?ref_no=MC/2211"><button class="button search_price lemon" style="background: #fecf87 none repeat scroll 0 0; color: #071822;" name="search_price" type="button">Read More</button></a></div>
+</div>
+</div>
+</div>
+</div></div>
+
+										</div>
+									</div>
+									<div id="devlg6" class="col-lg-3 col-md-3 col-sm-3 col-xs-12" style="padding-left:0px;padding-right:0px;">
+										<div class="single-service pull_left">
+											
+
+<div class="custom"  >
+	<div class="single-service-image pull_left mrr-20"><a class="block white-hover" href="../../../../../property-developments-kenya00e6.html?ref_no=2090"><img class="imgdev" src="../../../../../images/developments/akeva.jpg" alt="" /></a> <span class="dev-name" id="content-h-3c">Akeva</span>
+<div class="dev-text-small" onmouseover="myFunctiondev3c()" onmouseout="myFunctiondev23c()">
+<div>
+<div class="dev-content-small">
+<div class="text-m">
+<div class="dev-content-header-small">Akeva</div>
+<div class="text-j">Conveniently located in an affluent, secure and leafy suburb in Kaputei Gardens, Lavington, these breath-taking homes are designed to augment family</div>
+<br /><a href="../../../../../property-developments-kenya00e6.html?ref_no=2090"><button class="button search_price lemon" style="background: #fecf87 none repeat scroll 0 0; color: #071822;" name="search_price" type="button">Read More</button></a></div>
+</div>
+</div>
+</div>
+</div></div>
+
+										</div>
+									</div>
+									<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding-left:0px;padding-right:0px;padding-top:10px;text-align:right;font-weight:bold;color: #6d6e5d;">
+										
+
+<div class="custom"  >
+	<div class="single-service">
+<div class="single-service-image  mr-20"><a class="reportlink" href="../../../../../property-developments-in-kenya.html">View All &gt;</a></div>
+</div></div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--Start of Features Area-->
+						
+						<div class="features-area  mb-40">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-12">
+										<div class="section-title mb-38 mt-10 text-center">
+											<h2 class="uppercase mb-25">Services</h2>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="row" style="background: #081822 none repeat scroll 0 0;padding-top:80px;padding-bottom:80px;">
+							<div class="container">
+								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+									<div class="carousel slide multi-item-carousel" id="theCarousel">
+										<div class="carousel-inner">
+											<div class="item active">
+												<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+												<div class="timeline">
+													<div class="timeline-content mls-20"><a href="../../../../../services/property-development.html"><img src="../../../../../images/service/tab1-image.png" alt="property development marketing in kenya, development sales kenya, development realestate" /></a>
+														<div class="timeline-header">Development Marketing & Sales</div>
+														<div id="timeline-text">Our presence in the real estate market over the last two decades together with our focus ...<br /><br />
+															<a href="../../../../../services/property-development.html">
+																<button class="button search_price lemon" style="background: #fecf87 none repeat scroll 0 0; color: #071822;" name="search_price" type="button">Read More</button>
+															</a>
+														</div>
+													</div></div>
+												</div>
+											</div>
+											<div class="item">
+												<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+												<div class="timeline">
+													<div class="timeline-content"><a href="../../../../../index.php/sales-and-letting.html"><img src="../../../../../images/service/tab-2-image.png" alt="property sale and letting in kenya, sales and letting real estate"/></a>
+														<div class="timeline-header">Property Sales & Letting</div>
+														<div id="timeline-text">Giving a property the exposure it deserves to find quality tenants or to sell for the right price ...<br /><br />
+															<a href="../../../../../index.php/sales-and-letting.html">
+																<button class="button search_price lemon" style="background: #fecf87 none repeat scroll 0 0; color: #071822;" name="search_price" type="button">Read More</button>
+															</a>
+														</div>
+													</div></div>
+												</div>
+											</div>
+											<div class="item">
+												<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+												<div class="timeline">
+													<div class="timeline-content"><a href="../../../../../index.php/valuations.html"><img src="../../../../../images/service/tab-3-image.png" alt="valuations in kenya, property valuations in kenya, property in kenya "/></a>
+														<div class="timeline-header">Asset Valuation</div>
+														<div id="timeline-text">We undertake valuations of residential, commercial and industrial properties ...<br /><br />
+															<a href="../../../../../index.php/valuations.html">
+																<button class="button search_price lemon" style="background: #fecf87 none repeat scroll 0 0; color: #071822;" name="search_price" type="button">Read More</button>
+															</a>
+														</div>
+													</div></div>
+												</div>
+											</div>
+											<div class="item">
+												<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+												<div class="timeline">
+													<div class="timeline-content"><a href="../../../../../index.php/property-management.html"><img src="../../../../../images/service/tab-4-image.png" alt="property management in kenya, property in kenya, property management nairobi, property management real estate"/></a>
+														<div class="timeline-header">Property & Facilities Management</div>
+														<div id="timeline-text">Ongoing management and maintenance of properties is a key factor in value realization ...<br /><br />
+															<a href="../../../../../index.php/property-management.html">
+																<button class="button search_price lemon" style="background: #fecf87 none repeat scroll 0 0; color: #071822;" name="search_price" type="button">Read More</button>
+															</a>
+														</div>
+													</div></div>
+												</div>
+											</div>
+											<div class="item">
+												<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+												<div class="timeline">
+													<div class="timeline-content"><a href="../../../../../services/property-market-research.html"><img src="../../../../../images/service/tab-5-image.png" /></a>
+														<div class="timeline-header">Property Market Research</div>
+														<div id="timeline-text">It's a long established fact that a reader will be distracted by the readable...<br /><br />
+															<a href="../../../../../services/property-market-research.html">
+																<button class="button search_price lemon" style="background: #fecf87 none repeat scroll 0 0; color: #071822;" name="search_price" type="button">Read More</button>
+															</a>
+														</div>
+													</div> </div>
+												</div>
+											</div>
+											<div class="item">
+												<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+												<div class="timeline">
+													<div class="timeline-content"><a href="../../../../../services/development-concept-design-alignment.html"><img src="../../../../../images/service/tab-5-image.png" alt="Development Concept & Design Alignment"/></a>
+														<div class="timeline-header">Development Concept & Design Alignment</div>
+														<div id="timeline-text">The success of a development is decided at its planning and inception stages ...<br /><br />
+															<a href="../../../../../services/development-concept-design-alignment.html"><button class="button search_price lemon" style="background: #fecf87 none repeat scroll 0 0; color: #071822;" name="search_price" type="button">Read More</button></a>
+														</div>
+													</div> </div>
+												</div>
+											</div>
+											<div class="item">
+												<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+												<div class="timeline">
+													<div class="timeline-content"><a href="../../../../../services/joint-venture-finance-structuring.html"><img src="../../../../../images/service/tab-5-image.png" alt="Joint Venture & Finance Structuring" /></a>
+														<div class="timeline-header">Joint Venture & Finance Structuring</div>
+														<div id="timeline-text">As a company that is poised centrally in the market, we have been able to bring the benefits ...<br /><br />
+															<a href="../../../../../services/joint-venture-finance-structuring.html"><button class="button search_price lemon" style="background: #fecf87 none repeat scroll 0 0; color: #071822;" name="search_price" type="button">Read More</button></a>
+														</div>
+													</div> </div>
+												</div>
+											</div>
+										</div>
+										<a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+										<a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!--End of Features Area-->
+						<div class="service-area pb-80">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-1">
+										&nbsp;
+									</div>
+									<div class="col-md-10">
+										
+
+<div class="custom"  >
+	<div class="section-title mb-38 mt-31 text-center" style="padding-top: 40px;">
+<h2 class="uppercase mb-20">Hass Index</h2>
+<p class="pb-19" style="font-size: 13px;">The Hass Index is Kenya’s first ever published property price index with over 17 years of historical data of Kenya’s property markets. It has proven over the last decade to be an important tool providing investors, home owners, the financial industry and consumers with current and historical information about house price inflation- allowing them to make informed decisions in the housing market, in order to enjoy the best possible returns.</p>
+</div></div>
+
+									</div>
+									<div class="col-md-1">
+										&nbsp;
+									</div>
+								</div>
+								
+								<div class="row pl-20" >
+									
+
+<div class="custom"  >
+	<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 " style="padding-left: 0px; padding-right: 0px;">
+<div class="single-service">
+<div class="single-service-image  mr-20">
+<div class="col-md-12 indexlarge">
+<div class="indexlargeheader"><a href="../../../../../index.php/hass-index/14-the-hass-sales-index4142.html?typ=2&amp;layout=3">Hass Property Sales Index</a></div>
+</div>
+<div class="col-md-12 indexlargetext">
+<div class="indexlargeheadertext">Subdued growth continues in buying and renting of town houses, driven by Kenyan middle classes.<br /><br /><a href="../../../../../index.php/hass-index/14-the-hass-sales-index4142.html?typ=2&amp;layout=3"><button class="button search_price lemon" style="background: #fecf87 none repeat scroll 0 0; color: #071822;" name="search_price" type="button">Read More</button></a></div>
+</div>
+</div>
+</div>
+</div></div>
+
+									
+
+<div class="custom"  >
+	<div class="col-lg-2 col-md-4 col-sm-4 col-xs-12" style="padding-left: 0px; padding-right: 0px;">
+<div class="single-service">
+<div class="single-service-image  mr-20">
+<div class="col-md-12 indexsmall">
+<div class="indexsmallheader">Quarterly <br />Change</div>
+</div>
+<div class="col-md-12 indexsmalltext">
+<div class="indexsmallheadertext">-2.6 %</div>
+</div>
+</div>
+</div>
+</div></div>
+
+									
+
+<div class="custom"  >
+	<div class="col-lg-2 col-md-4 col-sm-4 col-xs-12" style="padding-left: 0px; padding-right: 0px;">
+<div class="single-service">
+<div class="single-service-image  mr-20">
+<div class="col-md-12 indexsmall">
+<div class="indexsmallheader">Annual <br />Change</div>
+</div>
+<div class="col-md-12 indexsmalltext">
+<div class="indexsmallheadertext">3.3 %</div>
+</div>
+</div>
+</div>
+</div></div>
+
+									
+
+<div class="custom"  >
+	<div id="collg6" class="col-lg-2 col-md-4 col-sm-4 col-xs-12" style="padding-left: 0px; padding-right: 0px;">
+<div class="single-service">
+<div class="single-service-image  mr-20">
+<div class="col-md-12 indexsmall">
+<div class="indexsmallheader">Change <br />from 2007</div>
+</div>
+<div class="col-md-12 indexsmalltext">
+<div class="indexsmallheadertext">2.41 Fold</div>
+</div>
+</div>
+</div>
+</div></div>
+
+									
+
+<div class="custom"  >
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding-left: 0px; padding-right: 0px; padding-top: 10px; text-align: right; font-weight: bold; color: #6d6e5d;">
+<div class="single-service">
+<div class="single-service-image  mr-20"><a class="reportlink" href="../../../../../images/Q12019Residential.pdf">View Quarterly Report &gt;</a></div>
+</div>
+</div></div>
+
+									
+								</div>
+								<div class="row pl-20 mt-100">
+									
+
+<div class="custom"  >
+	<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12" style="padding-left: 0px; padding-right: 0px;">
+<div class="single-service">
+<div class="single-service-image  mr-20">
+<div class="col-md-12 indexlarge">
+<div class="indexlargeheader"><a href="../../../../../index.php/hass-index/15-the-hass-rental-indexb8d0.html?typ=2&amp;layout=4">Hass Property Rental Index</a></div>
+</div>
+<div class="col-md-12 indexlargetext">
+<div class="indexlargeheadertext">Accelerating growth in apartment rental prices, as working classes balloon.<br /><br /><a href="../../../../../index.php/hass-index/15-the-hass-rental-indexb8d0.html?typ=2&amp;layout=4"><button class="button search_price lemon" style="background: #fecf87 none repeat scroll 0 0; color: #071822;" name="search_price" type="button">Read More</button></a></div>
+</div>
+</div>
+</div>
+</div></div>
+
+									
+
+<div class="custom"  >
+	<div id="collg6" class="col-lg-2 col-md-4 col-sm-4 col-xs-12" style="padding-left: 0px; padding-right: 0px;">
+<div class="single-service">
+<div class="single-service-image  mr-20">
+<div class="col-md-12 indexsmall">
+<div class="indexsmallheader">Quarterly <br />Change</div>
+</div>
+<div class="col-md-12 indexsmalltext">
+<div class="indexsmallheadertext">1.1 %</div>
+</div>
+</div>
+</div>
+</div></div>
+
+									
+
+<div class="custom"  >
+	<div id="collg6" class="col-lg-2 col-md-4 col-sm-4 col-xs-12" style="padding-left: 0px; padding-right: 0px;">
+<div class="single-service">
+<div class="single-service-image  mr-20">
+<div class="col-md-12 indexsmall">
+<div class="indexsmallheader">Annual <br />Change</div>
+</div>
+<div class="col-md-12 indexsmalltext">
+<div class="indexsmallheadertext">8.7 %</div>
+</div>
+</div>
+</div>
+</div></div>
+
+									
+
+<div class="custom"  >
+	<div id="collg6" class="col-lg-2 col-md-4 col-sm-4 col-xs-12" style="padding-left: 0px; padding-right: 0px;">
+<div class="single-service">
+<div class="single-service-image  mr-20">
+<div class="col-md-12 indexsmall">
+<div class="indexsmallheader">Change <br />from 2007</div>
+</div>
+<div class="col-md-12 indexsmalltext">
+<div class="indexsmallheadertext">1.89 Fold</div>
+</div>
+</div>
+</div>
+</div></div>
+
+									
+
+<div class="custom"  >
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding-left: 0px; padding-right: 0px; padding-top: 10px; text-align: right; font-weight: bold; color: #6d6e5d;">
+<div class="single-service">
+<div class="single-service-image  mr-20"><a class="reportlink" href="../../../../../images/Q12019Residential.pdf">View Quarterly Report &gt;</a></div>
+</div>
+</div></div>
+
+									
+								</div>
+								<div class="row pl-20  mt-100">
+									
+
+<div class="custom"  >
+	<div id="collg6" class="col-lg-6 col-md-12 col-sm-12 col-xs-12" style="padding-left: 0px; padding-right: 0px;">
+<div class="single-service">
+<div class="single-service-image  mr-20">
+<div class="col-md-12 indexlarge">
+<div class="indexlargeheader"><a href="../../../../../index.php/hass-index/13-the-hass-land-index5d0d.html?typ=2&amp;layout=2">Hass Property Land Index</a></div>
+</div>
+<div class="col-md-12 indexlargetext">
+<div class="indexlargeheadertext">The Nairobi land market is maturing into a market with distinct local patterns. <br /><br /><a href="../../../../../index.php/hass-index/13-the-hass-land-index5d0d.html?typ=2&amp;layout=2"><button class="button search_price lemon" style="background: #fecf87 none repeat scroll 0 0; color: #071822;" name="search_price" type="button">Read More</button></a></div>
+</div>
+</div>
+</div>
+</div></div>
+
+									
+
+<div class="custom"  >
+	<div id="collg6" class="col-lg-2 col-md-4 col-sm-4 col-xs-12" style="padding-left: 0px; padding-right: 0px;">
+<div class="single-service">
+<div class="single-service-image  mr-20">
+<div class="col-md-12 indexsmall">
+<div class="indexsmallheader">Quarterly <br />Change</div>
+</div>
+<div class="col-md-12 indexsmalltext">
+<div class="indexsmallheadertext">+0.5%</div>
+</div>
+</div>
+</div>
+</div></div>
+
+									
+
+<div class="custom"  >
+	<div id="collg6" class="col-lg-2 col-md-4 col-sm-4 col-xs-12" style="padding-left: 0px; padding-right: 0px;">
+<div class="single-service">
+<div class="single-service-image  mr-20">
+<div class="col-md-12 indexsmall">
+<div class="indexsmallheader">Annual <br />Change</div>
+</div>
+<div class="col-md-12 indexsmalltext">
+<div class="indexsmallheadertext">+1.4 %</div>
+</div>
+</div>
+</div>
+</div></div>
+
+									
+
+<div class="custom"  >
+	<div id="collg6" class="col-lg-2 col-md-4 col-sm-4 col-xs-12" style="padding-left: 0px; padding-right: 0px;">
+<div class="single-service">
+<div class="single-service-image  mr-20">
+<div class="col-md-12 indexsmall">
+<div class="indexsmallheader">Change <br />from 2007</div>
+</div>
+<div class="col-md-12 indexsmalltext">
+<div class="indexsmallheadertext">6.33 Fold</div>
+</div>
+</div>
+</div>
+</div></div>
+
+									
+
+<div class="custom"  >
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding-left: 0px; padding-right: 0px; padding-top: 10px; text-align: right; font-weight: bold; color: #6d6e5d;">
+<div class="single-service">
+<div class="single-service-image  mr-20"><a class="reportlink" href="../../../../../images/LandIndexQ12019.pdf">View Quarterly Report &gt;</a></div>
+</div>
+</div></div>
+
+									
+								</div>					
+							</div>
+						</div>
+						<!--Start of Footer Widget-area-->
+						<div class="footer-widget-area bg-violet black-bg hidden-xs">
+							<div class="container">
+								
+								<div class="row" style="margin-top:70px;">
+									<div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+									   
+									   <div class="single-footer-widget">
+											
+
+<div class="custom"  >
+	<h3 class="text-grey text-uppercase mb-21 hidden-xs" style="font-size: 16px;">Hassconsult Ltd</h3>
+<div class="block" style="line-height: 22px; font-size: 13px;">ABC Place Waiyaki Way,<br /> P.O Box 14090 - 00800<br /> Nairobi, Kenya</div></div>
+
+											<div class="footer-contact-info">
+												<img src="../../../../../images/icons/f-phone.png" alt="property in kenya">
+												<span class="pl-40 block">
+													
+
+<div class="custom"  >
+	<div>
+<table width="100%">
+<tbody>
+<tr>
+<td>Office :</td>
+<td><a style="color: #c7c7c7;" href="tel:+254709479000">(+254 709) 479000</a></td>
+</tr>
+</tbody>
+</table>
+</div></div>
+
+												</span>
+											</div>
+											<div class="footer-contact-info">
+												<img src="../../../../../images/icons/f-globe.png" alt="contact hassconsult, contact real estate">
+												<span class="pl-40 block">
+												
+
+<div class="custom"  >
+	<table width="100%">
+<tbody>
+<tr>
+<td>Email :</td>
+<td><a style="color: #c7c7c7;" target="_blank" href="mailto:info@hassconsult.co.ke" rel="noopener noreferrer">info@hassconsult.co.ke</a></td>
+</tr>
+<tr>
+<td>Web :</td>
+<td><a style="color: #c7c7c7;" target="_blank" href="http://hassconsult.co.ke/" rel="noopener noreferrer">www.hassconsult.co.ke</a></td>
+</tr>
+</tbody>
+</table>
+<p></p></div>
+</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 pl-80 col-xs-12">
+										<div class="single-footer-widget">
+											<h3 class="text-grey text-uppercase mb-28">Don't Miss Out</h3>
+											<div class="footer-widget-content">
+												<span class="mb-21 block">Subscribe to our newsletter and stay updated on the latest developments and special offers!</span>
+												<form action="http://hassconsult.co.ke/real-estate/index.php" method="POST">
+													<div class="subscribe-form">
+														<input id="mc-email" type="email" name="youremail" placeholder="Enter your email here" required />
+														<input  type="hidden" name="yourmessage" value="NewsLetter Subscription">
+														<input  type="hidden" name="yourname" value="">
+														<input  type="hidden" name="yourmobile" value="">
+														<input  type="hidden" name="sendemail" value="Yes">
+														<button id="mc-submit" type="submit"><i class="fa fa-send"></i></button>
+													</div>    
+												</form>
+											</div>
+											<div class="footer-widget-content">
+													<div class="social-links mt-25 mb-80">
+														<a target="_blank" href="https://www.facebook.com/hassconsult/"><i class="fa fa-facebook"></i></a>
+														<a target="_blank" href="https://twitter.com/hassconsult?lang=en"><i class="fa fa-twitter"></i></a>
+														<a target="_blank" href="https://www.instagram.com/hassconsult/"><i class="fa fa-instagram"></i></a>
+													</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 hidden-md hidden-sm pl-80 col-xs-12">
+										
+
+<div class="custom"  >
+	<div class="single-footer-widget">
+<h3 class="text-grey text-uppercase mb-17 hidden-xs">Company</h3>
+<ul class="footer-list">
+<li><a href="../../../../../about-us.html">About Us</a></li>
+<li><a href="../../../../../services.html">Services</a></li>
+<li><a href="../../../../../careers.html">Careers</a></li>
+<li><a href="../../../../../hass-in-the-press.html">Hass in the News</a></li>
+</ul>
+</div></div>
+
+									</div>
+									<div id="collg2" class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+										
+
+<div class="custom"  >
+	<div class="single-footer-widget pull_right">
+<h3 class="text-grey text-uppercase mb-17 hidden-xs">Explore</h3>
+<ul class="footer-list">
+<li><a href="../../../../../property-for-sale.html">Property for Sale</a></li>
+<li><a href="../../../../../property-to-let.html">Property to Let</a></li>
+<li><a href="../../../../../property-developments-in-kenya.html">New Developments</a></li>
+<li><a href="../../../../../hass-index.html">Hass Index</a></li>
+<li><a href="../../../../../suburb-profiles509a.html?g=1">Suburb Profiles</a></li>
+<li><a href="../../../../../contacts.html">Contact Us</a></li>
+</ul>
+</div></div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--End of Footer Widget-area-->
+										<!--Start of Footer Widget-area-->
+						<div class="footer-widget-area bg-violet black-bg hidden-sm hidden-lg hidden-md">
+							<div class="container">
+								
+								<div class="row">
+									<section class="ac-footer" style="margin-bottom: 0px;">
+										<div><input id="ac-100" name="accordion-1" type="checkbox" /> <label for="ac-100">Hassconsult Ltd</label>
+											<article class="ac-large-footer">
+												<div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+												   
+												   <div class="single-footer-widget">
+														
+
+<div class="custom"  >
+	<h3 class="text-grey text-uppercase mb-21 hidden-xs" style="font-size: 16px;">Hassconsult Ltd</h3>
+<div class="block" style="line-height: 22px; font-size: 13px;">ABC Place Waiyaki Way,<br /> P.O Box 14090 - 00800<br /> Nairobi, Kenya</div></div>
+
+														<div class="footer-contact-info">
+															<img src="../../../../../images/icons/f-phone.png" alt="property in kenya">
+															<span class="pl-40 block">
+																
+
+<div class="custom"  >
+	<div>
+<table width="100%">
+<tbody>
+<tr>
+<td>Office :</td>
+<td><a style="color: #c7c7c7;" href="tel:+254709479000">(+254 709) 479000</a></td>
+</tr>
+</tbody>
+</table>
+</div></div>
+
+															</span>
+														</div>
+														<div class="footer-contact-info">
+															<img src="../../../../../images/icons/f-globe.png" alt="contact real estate agent">
+															<span class="pl-40 block">
+															
+
+<div class="custom"  >
+	<table width="100%">
+<tbody>
+<tr>
+<td>Email :</td>
+<td><a style="color: #c7c7c7;" target="_blank" href="mailto:info@hassconsult.co.ke" rel="noopener noreferrer">info@hassconsult.co.ke</a></td>
+</tr>
+<tr>
+<td>Web :</td>
+<td><a style="color: #c7c7c7;" target="_blank" href="http://hassconsult.co.ke/" rel="noopener noreferrer">www.hassconsult.co.ke</a></td>
+</tr>
+</tbody>
+</table>
+<p></p></div>
+</span>
+														</div>
+													</div>
+												</div>
+											</article>
+										</div>
+										<div><input id="ac-102" name="accordion-1" type="checkbox" /> <label for="ac-102">Don't Miss Out</label>
+											<article class="ac-large-footer">
+												<div class="col-lg-4 col-md-4 col-sm-4 pl-80 col-xs-12">
+													<div class="single-footer-widget">
+														<h3 class="text-grey text-uppercase mb-28 hidden-xs">Don't Miss Out</h3>
+														<div class="footer-widget-content">
+															<span class="mb-27 block">Subscribe to our newsletter and stay updated on the latest developments and special offers!</span>
+															<form action="http://hassconsult.co.ke/real-estate/index.php" method="POST">
+																<div class="subscribe-form">
+																	<input id="mc-email" type="email" name="youremail" placeholder="Enter your email here" required />
+																	<input  type="hidden" name="subscribeemail" value="Yes">
+																	<input  type="hidden" name="yourname" value="">
+																	<input  type="hidden" name="yourmobile" value="">
+																	<input  type="hidden" name="sendemail" value="Yes">
+																	<button id="mc-submit" type="submit"><i class="fa fa-send"></i></button>
+																</div>    
+															</form>
+														</div>
+													   <div class="footer-widget-content">
+																<div class="social-links mt-25 mb-80">
+																	<a target="_blank" href="https://www.facebook.com/hassconsult/"><i class="fa fa-facebook"></i></a>
+																	<a target="_blank" href="https://twitter.com/hassconsult?lang=en"><i class="fa fa-twitter"></i></a>
+																	<a target="_blank" href="https://www.instagram.com/hassconsult/"><i class="fa fa-instagram"></i></a>
+																</div>
+														</div>
+													</div>
+												</div>
+											</article>
+										</div>
+										<div><input id="ac-103" name="accordion-1" type="checkbox" /> <label for="ac-103">Company</label>
+											<article class="ac-large-footer">
+												<div class="col-lg-3 hidden-md hidden-sm pl-80 col-xs-12">
+													
+
+<div class="custom"  >
+	<div class="single-footer-widget">
+<h3 class="text-grey text-uppercase mb-17 hidden-xs">Company</h3>
+<ul class="footer-list">
+<li><a href="../../../../../about-us.html">About Us</a></li>
+<li><a href="../../../../../services.html">Services</a></li>
+<li><a href="../../../../../careers.html">Careers</a></li>
+<li><a href="../../../../../hass-in-the-press.html">Hass in the News</a></li>
+</ul>
+</div></div>
+
+												</div>
+											</article>
+										</div>
+										<div><input id="ac-104" name="accordion-1" type="checkbox" /> <label for="ac-104">Explore</label>
+											<article class="ac-large-footer">
+												<div id="collg2" class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+													
+
+<div class="custom"  >
+	<div class="single-footer-widget pull_right">
+<h3 class="text-grey text-uppercase mb-17 hidden-xs">Explore</h3>
+<ul class="footer-list">
+<li><a href="../../../../../property-for-sale.html">Property for Sale</a></li>
+<li><a href="../../../../../property-to-let.html">Property to Let</a></li>
+<li><a href="../../../../../property-developments-in-kenya.html">New Developments</a></li>
+<li><a href="../../../../../hass-index.html">Hass Index</a></li>
+<li><a href="../../../../../suburb-profiles509a.html?g=1">Suburb Profiles</a></li>
+<li><a href="../../../../../contacts.html">Contact Us</a></li>
+</ul>
+</div></div>
+
+												</div>
+											</article>
+										</div>
+									</section>
+								</div>
+							</div>
+						</div>
+						<!--End of Footer Widget-area-->
+						<!-- Start of Footer area -->
+						<footer class="footer-area bg-violet text-center pt-27 pb-32 border-top">
+							<div class="container">
+								<div class="row">
+									
+
+<div class="custom"  >
+	<div class="col-md-6">
+<div class="footer-text"><span class="block">Copyright© 2017 <a style="color: #ccc;" href="#">HassConsult LTD</a>. All rights reserved.</span></div>
+</div>
+<div class="col-md-6">
+<div class="footer-text2"><span class="block">By <a style="color: #ccc;" href="http://techraft.co.ke/" target="_blank" rel="noopener noreferrer">TechRaft</a>.</span></div>
+</div></div>
+
+								</div>
+							</div>
+						</footer>
+						<!-- End of Footer area -->
+					</div>   
+					<!--End of Bg White-->   
+				</div>    
+				<!--End of Main Wrapper Area--> 
+			</div>
+	   </div>
+        
+        <!-- jquery latest version
+		========================================================= -->	
+
+        
+        <!-- Bootstrap framework js
+		========================================================= -->			
+        <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+        
+        <!-- Owl Carousel js
+		========================================================= -->		
+        <script src="../../../../home/js/owl.carousel.min.js"></script>
+        
+        <!-- nivo slider js
+		========================================================= -->	    
+		<script src="../../../../home/lib/nivo-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
+		<script src="../../../../home/lib/nivo-slider/home.js" type="text/javascript"></script>
+        
+        <!-- Waypoint Js
+		========================================================= -->	
+        <script src="../../../../home/js/waypoints.min.js"></script>
+        
+		<!-- Video Player JS
+		========================================================= -->			
+        <script src="../../../../home/js/jquery.mb.YTPlayer.js"></script>
+        
+		<!-- AJax Mail JS
+		========================================================= -->			
+        <script src="../../../../home/js/ajax-mail.js"></script>
+        
+		<!-- Mail Chimp JS
+		========================================================= -->			
+        <script src="../../../../home/js/jquery.ajaxchimp.min.js"></script>
+        
+		<!-- Slick Carousel JS
+		========================================================= -->			
+        <script src="../../../../home/js/slick.min.js"></script>
+        
+		<!-- Style Customizer JS
+		========================================================= -->		
+        <script src="../../../../home/js/style-customizer.js"></script>
+        
+        <!-- Plugin Js
+		========================================================= -->	
+        <script src="../../../../home/js/plugins.js"></script>
+        
+        <!-- Main js file contents all jQuery plugins activation
+		========================================================= -->		
+        <script src="../../../../home/js/main.js"></script>
+		
+		<script src="../../../../classie.js"></script>
+		<script src="../../../../main1.js"></script>
+		
+		<script>
+			$('.multi-item-carousel').carousel({
+			  interval: 10000
+			});
+
+			$('.multi-item-carousel .item').each(function(){
+			  var next = $(this).next();
+			  if (!next.length) {
+				next = $(this).siblings(':first');
+			  }
+			  next.children(':first-child').clone().appendTo($(this));
+			  
+			  for (var i=0;i<2;i++) {
+				next=next.next();
+				if (!next.length) {
+					next = $(this).siblings(':first');
+				}
+				
+				next.children(':first-child').clone().appendTo($(this));
+			  }
+			});
+		</script>
+        <script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-17243622-1', 'hassconsult.co.ke');
+		  ga('send', 'pageview');
+
+		</script>
+		<!-- Start of HubSpot Embed Code -->
+		  <script type="text/javascript" id="hs-script-loader" async defer src="http://js.hs-scripts.com/5308349.js"></script>
+	<!-- End of HubSpot Embed Code -->
+    </body>
+
+<!-- Mirrored from hassconsult.co.ke/real-estate/templates/services/images/customizer/bodybg/04.jpg by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Jun 2019 21:52:55 GMT -->
+</html>

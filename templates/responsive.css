@@ -451,12 +451,10 @@
 	.property-area.sidebar .col-md-4.pl-55{padding-left: 15px}
 	.list-item.mr-55, .list-item.mr-45, .list-item.mr-50 {margin-right: 7px;}
 	.list-item img {margin-right: 8px;}
-	.property-content .property-title {margin: 15px 0 10px;}
-	 {width: 100%;}
+	.property-content .property-title {margin: 15px 0 10px;width: 100%;}
 	.list .pagination {margin: 50px 0;}
 	.service-about-area .col-md-7 {padding-left: 15px; padding-right: 15px}
-	.b-s-image, .b-s-image-3 {margin-bottom: 30px;}
-	 {margin-top: 40px;}
+	.b-s-image, .b-s-image-3 {margin-bottom: 30px; margin-top: 40px;}
 	.service-about-area .col-md-7.mt-40 {margin: 0; padding-bottom: 10px;}
 	.service-about-area .col-md-7.mt-40 .section-title {margin: 0; padding-top: 20px;}
 	.b-s-image-2 > img {right: 0; top: 0;}

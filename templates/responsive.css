@@ -21,7 +21,7 @@
 	.search_price {margin-left: 0px; padding: 0 13px;}
 	.price_filter {width: 54%;}
 	.banner-1 {background-position: 3% 18%; background-size:  46.5% auto}
-	.hover-container {height: 51px;}
+	.hover-container {height: 51px;}sticky-header
 	.sidebar .hover-item:nth-child(2) {width: 23%;}
 	.sidebar .hover-item:nth-child(3) {width: 21%;}
 	.banner-2 {background-position: 109% 78%; background-size: 38% auto;}
@@ -318,7 +318,7 @@
     .container, .wrapper.boxed-layout, .wrapper.box-layout {width:300px}
     .mobile-menu-area {display: block;}
     #sticky-header, .wrapper.boxed-layout #sticky-header, .wrapper.box-layout #sticky-header, #sticky-header.fixed {position: inherit;}
-    #sticky-header {width: 100%;background-color:#081822;}
+    #sticky-header {width: 100%;background-color:#ffffff;}
     .logo {text-align: center;}
     .footer-container span {text-align: center; display: block}
     .sticky .logo img {width: auto;}

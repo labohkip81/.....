@@ -1209,7 +1209,7 @@ span.dev-name:hover{
 	display: block;
 	font-size: 11px;
 	color: #fff;
-	width:100%
+	width:100%;
 	float:left;
 }
 .timeline-content:after{
@@ -1258,7 +1258,7 @@ display:none;
 }
 
 .indexsmall{
-	font-size:14px
+	font-size:14px;
 	font-weight:bold;
 	height:70px;
 	background-color:#c6c6c6;
@@ -1820,7 +1820,7 @@ a:focus, a:hover{
     display: block;
 	font-weight: bold;
 	font-size: 13px;
-	text
+	text: '';
 }
 
 /* Change color of dropdown links on hover */
@@ -1831,7 +1831,7 @@ a:focus, a:hover{
 #primary-menu ul li a{
 	font-weight:bold;
 	font-size:12px;
-	color:#fff;
+	color: #000;
 }
 #primary-menu ul li a:hover{
 	color:#fecf87;

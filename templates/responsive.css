@@ -668,7 +668,7 @@
 	.propertytxt{margin-bottom:20px;}
 	.ac-large ul{padding-left:0px;}
 	.ac-large ul li::before{	
-		content: ;
+		content:'' ;
 	}
 	#submitcv{
 		padding-right:60px;

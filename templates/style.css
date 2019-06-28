@@ -1831,7 +1831,7 @@ a:focus, a:hover{
 #primary-menu ul li a{
 	font-weight:bold;
 	font-size:12px;
-	color:#fff;
+	color: #000;
 }
 #primary-menu ul li a:hover{
 	color:#fecf87;

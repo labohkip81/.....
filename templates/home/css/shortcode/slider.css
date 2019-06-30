@@ -53,7 +53,7 @@ p.sub-title {
 	margin-bottom: 50px;
 }
 .slide-header{
-	background-image: url('http://ndege.co.ke/arrow-down-icon2.png');
+	background-image: url('http://hassconsult.co.ke/arrow-down-icon2.png');
 	background-repeat: no-repeat;
     background-position:  center right;
 	margin-bottom:10px;
@@ -136,7 +136,7 @@ p.sub-title {
 }
 .button.slider-btn:hover, #search-form > button, .banner-form .price_filter .ui-slider-handle.ui-state-default.ui-corner-all, .nivo-controlNav a.active, .nivo-controlNav a:hover {
 	background: ##081822 none repeat scroll 0 0
-	background-image: url('http://ndege.co.ke/arrow-down-icon2.png');
+	background-image: url('http://hassconsult.co.ke/arrow-down-icon2.png');
 }
 .banner-form .ui-slider-range.ui-widget-header.ui-corner-all {
   background: #95c41f none repeat scroll 0 0 !important;

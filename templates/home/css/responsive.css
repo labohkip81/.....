@@ -1,5 +1,6 @@
 /* Large desktop :1920px. */
 @media (min-width: 1920px) {
+	#sticky-header {background-color:#ffffff;}
     .container, .wrapper .container {width: 1230px}
     .video-wrapper, .video-banner {height: 630px}
 	.gallery-img h2 {margin: 69px auto 10px;}
@@ -14,6 +15,7 @@
     .wrapper.boxed-layout, .wrapper.boxed-layout .sticky, .wrapper.box-layout, .wrapper.box-layout .sticky {width: 970px}
 	.main-menu > li {padding-left: 20px;}
 	nav#primary-menu {margin-top: 45px;}
+	#sticky-header {background-color:#ffffff;}
 	.sticky nav#primary-menu {margin-top: 15px;}
 	.sticky .main-menu > li {padding-left: 22px;}
 	.text-left h1.title1 {font-size: 39px;}

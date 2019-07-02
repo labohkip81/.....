@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- generator="Joomla! - Open Source Content Management" -->
 <feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="en-gb">
-	<title type="text">HassConsult Real Estate | Suburb Profiles</title>
+	<title type="text">ndege-villas Real Estate | Suburb Profiles</title>
 	<subtitle type="text"></subtitle>
 	<link rel="alternate" type="text/html" href="http://ndege.co.ke"/>
 	<id>http://ndege.co.ke/real-estate/suburb-profiles</id>
 	<updated>2019-06-26T16:40:56+00:00</updated>
 	<author>
-		<name>HassConsult Real Estate</name>
+		<name>ndege-villas Real Estate</name>
 	</author>
 	<generator uri="https://www.joomla.org">Joomla! - Open Source Content Management</generator>
 	<link rel="self" type="application/atom+xml" href="http://ndege.co.ke/real-estate/suburb-profiles?g=1&amp;format=feed&amp;type=atom"/>

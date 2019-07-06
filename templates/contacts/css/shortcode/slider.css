@@ -104,7 +104,24 @@ p.sub-title {
 .banner-form .price_filter span, .banner-form .price_filter input{color: #a8a8a8}
 .banner-form .button {width: 250px;}
 .banner-form .button:hover {background: #fff; color: #fff}
-.google-map-area {position: relative}
+.google-map-area {position: absolute; width:auto}
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
 .custom-container {
 	bottom: 0;
 	float: left;

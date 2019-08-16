@@ -1404,7 +1404,7 @@ i.icon {
 .icon,
 .icon-before:before,
 .icon-after:after {
-    background-image: url("/ps/images19226/fullsite/icons/icon-sprite.png");
+    background-image: url("../rightmove/icon-sprite.png");
     background-repeat: no-repeat;
     background-position: 50px 50px;
     content: "";
@@ -4104,7 +4104,7 @@ body .list-bullet-darkBlue li:before {
 }
 
 .gallery-thumbs .gallery-nav span {
-    background-image: url("/ps/images19226/fullsite/icons/icon-sprite.png");
+    background-image: url("../rightmove/icon-sprite.png");
     background-repeat: no-repeat;
     height: 34px;
     position: absolute;
@@ -5812,7 +5812,7 @@ li.tabbed-content-nav-item.active:hover {
 .fancybox-close,
 .fancybox-prev span,
 .fancybox-next span {
-    background-image: url('/ps/images19226/fullsite/fancybox/fancybox_sprite.png')
+    background-image: url('../rightmove/fancybox_sprite.png')
 }
 
 #fancybox-loading {
@@ -8025,7 +8025,7 @@ p.date-sold {
 }
 
 .coloured .icon-before:before {
-    background-image: url("/ps/images19226/fullsite/icons/icon-sprite-mvt.png")
+    background-image: url("../rightmove/icon-sprite.png")
 }
 
 .coloured #secondaryContent .hl-1.pad-16 .pad-b-8 p {

@@ -8272,7 +8272,7 @@ body.odin-top-nav #cookiemodalbarplaceholder {
     width: 100%;
     margin: 0 auto;
     top: 0;
-    height: 50px;
+    height: 100px;
     -webkit-transition: top ease-in-out .2s;
     transition: top ease-in-out .2s
 }
@@ -8309,7 +8309,7 @@ body.odin-top-nav #cookiemodalbarplaceholder {
     left: 0;
     right: 0;
     height: 0;
-    background-color: #e9e9eb;
+    background-color: #ffffff;
     -webkit-transition: height ease-in-out .2s;
     transition: height ease-in-out .2s;
     will-change: height;
@@ -8317,8 +8317,8 @@ body.odin-top-nav #cookiemodalbarplaceholder {
 }
 
 .globalNav-background.is-expanded {
-    border-top: 1px solid #d5d5d5;
-    border-bottom: 1px solid #d5d5d5;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
     height: 122px
 }
 
@@ -8610,13 +8610,15 @@ a.globalNav-link--current {
     font-family: Effra-Regular, Arial, Geneva, sans-serif;
     -webkit-font-smoothing: antialiased;
     font-weight: normal;
-    font-size: 17px;
+    font-size: 12px;
     color: #000000
 }
 
 .header-rebranding.globalHeader .globalNav-link {
     padding: 10px 0;
-    color: #000000
+    color: #000000;
+    font-weight:bold;
+    font-size: 12px;
 }
 
 .header-rebranding.globalHeader .globalNav-link:visited {
@@ -8680,10 +8682,12 @@ a.globalNav-link--current {
 }
 
 .globalHeader-logo.globalHeader-logo--rebranded {
-    height: 24px;
+    height: 37px;
     width: auto;
     margin-left: 10px;
-    margin-top: 12px
+    margin-top: 12px;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 #cookiemodalbarplaceholder {

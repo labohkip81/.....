@@ -1274,8 +1274,8 @@ h6,
 }
 
 .fs-12 {
-    font-size: 12px;
-    font-size: 1.2rem
+    font-size: 11px;
+    font-size: .9rem
 }
 
 .fs-13 {
@@ -2911,7 +2911,8 @@ body .list-bullet-darkBlue li:before {
     display: inline;
     line-height: inherit;
     margin-right: 8px;
-    padding-bottom: 0
+    padding-bottom: 0;
+    font-family:"Helvetica";
 }
 
 .no-js .js-sliding-menu {

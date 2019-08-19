@@ -1274,8 +1274,8 @@ h6,
 }
 
 .fs-12 {
-    font-size: 12px;
-    font-size: 1.2rem
+    font-size: 11px;
+    font-size: .9rem
 }
 
 .fs-13 {
@@ -2911,7 +2911,8 @@ body .list-bullet-darkBlue li:before {
     display: inline;
     line-height: inherit;
     margin-right: 8px;
-    padding-bottom: 0
+    padding-bottom: 0;
+    font-family:"Helvetica";
 }
 
 .no-js .js-sliding-menu {
@@ -8271,7 +8272,7 @@ body.odin-top-nav #cookiemodalbarplaceholder {
     width: 100%;
     margin: 0 auto;
     top: 0;
-    height: 50px;
+    height: 100px;
     -webkit-transition: top ease-in-out .2s;
     transition: top ease-in-out .2s
 }
@@ -8308,7 +8309,7 @@ body.odin-top-nav #cookiemodalbarplaceholder {
     left: 0;
     right: 0;
     height: 0;
-    background-color: #e9e9eb;
+    background-color: #ffffff;
     -webkit-transition: height ease-in-out .2s;
     transition: height ease-in-out .2s;
     will-change: height;
@@ -8316,8 +8317,8 @@ body.odin-top-nav #cookiemodalbarplaceholder {
 }
 
 .globalNav-background.is-expanded {
-    border-top: 1px solid #d5d5d5;
-    border-bottom: 1px solid #d5d5d5;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
     height: 122px
 }
 
@@ -8609,17 +8610,19 @@ a.globalNav-link--current {
     font-family: Effra-Regular, Arial, Geneva, sans-serif;
     -webkit-font-smoothing: antialiased;
     font-weight: normal;
-    font-size: 17px;
-    color: #76767c
+    font-size: 12px;
+    color: #000000
 }
 
 .header-rebranding.globalHeader .globalNav-link {
     padding: 10px 0;
-    color: #76767c
+    color: #000000;
+    font-weight:bold;
+    font-size: 12px;
 }
 
 .header-rebranding.globalHeader .globalNav-link:visited {
-    color: #76767c
+    color: #000000
 }
 
 .header-rebranding.globalHeader .globalNav-subNav-link,
@@ -8646,7 +8649,7 @@ a.globalNav-link--current {
 
 .header-rebranding.globalHeader .globalNav-link:hover,
 .header-rebranding.globalHeader .globalNav-subNav-link:hover {
-    color: #262637
+    color: orange;
 }
 
 .header-rebranding.globalHeader .globalNav-subNav-col:first-child {
@@ -8679,10 +8682,12 @@ a.globalNav-link--current {
 }
 
 .globalHeader-logo.globalHeader-logo--rebranded {
-    height: 24px;
+    height: 37px;
     width: auto;
     margin-left: 10px;
-    margin-top: 12px
+    margin-top: 12px;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 #cookiemodalbarplaceholder {

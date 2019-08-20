@@ -1,0 +1,184 @@
+/*Property details*/
+#thumbnailcontainer #thumbnailcarousel{overflow: scroll; }
+#controlpanel #slideshow,#thumbnailcontainer .thumbnailNavigation{ visibility: hidden; }
+@-moz-document url-prefix() { #controlpanel { bottom: 8.7em; } }/*hack for firefox believe it or not*/ 
+#mediacontainer #mapdropdown {border-bottom: 1px solid #FFFFFF; }
+#mediacontainer #showmapanchor a.maptoggle { text-decoration:none; color:#474646 }
+#mediacontainer #showmapanchor a.maptoggle:hover { text-decoration:none; background:none; color:#474646; cursor: default; }
+#mainmapwrapper {display: block; overflow: hidden;}
+#mainmapwrapper .errorbox { margin: 1em; }
+#pageoptions #notes.options a.button,#mediacontainer #showmapanchor a.maptoggle  {background:none; }
+#pageoptions #notescontainer { display: block;}
+.noscript#googlemap { display: block; }
+#notebuttons input { float: left; margin: 0 0.5em 0 0;}
+#mainimagecontainer span.propertystatus {bottom: 35px}
+#mainmapwrapper #schoolmenu, #tablist, #propertymedia, #socialmedia #likebutton, #tabs-streetview-content  { display:none;}
+#socialmedia #buttons { padding:2em 0 0; }
+.zoomarea, #floorplanlinks, #maptext{display:none;}
+.tabcontent {clear:both}
+#tabs #tablistwrapper {height:20px}
+#gallerycontainer #gallery, #gallerycontainer #thumbnailcontainer {display:none;}
+#gallerycontainer #gallerynojs {position:relative; display:table !important; height:auto; overflow: hidden; float:none; clear:both; }
+#gallerynojs #mainimagecontainernojs {width:602px; display:table; overflow: auto; height: 420px; position:relative; }
+#gallerynojs #mainimagecontainernojs .innernojs {position: relative!important; top: -50%; width:605px}
+#gallerynojs #mainimagecontainernojs .imageinnernojs {position: relative!important; top: -50%; max-height: 415px; max-width:620px;}
+#gallerycontainer   {padding: 0 0 0.8em 0 ;text-align: center; height:420px; overflow-y: auto; overflow-x: hidden;}
+#propertydetails #numofpicturesjsoff {margin-bottom:0; height:15px;}
+#propertydetails #requestdetails {margin:0;}
+
+/*new homes development page*/
+#detailsNavigation {
+    display:none;
+}
+#mainContentHolder {
+    height: auto;
+    border-width: 1px 0 0 0;
+    border-style:solid;
+    border-color: #cccccc;
+    width:96%;
+    margin:1em;
+    clear:both;
+    overflow-y:visible;
+}
+#tab-overview-content, #tab-offer-content, #tab-localArea-content, #tab-visitUs-content, #tab-sitePlan-content, #tab-aboutUs-content, #tab-map-content, #tab-helpToBuy-content, #tab-newBuy-content  {
+    clear:both;
+    position:static;
+    float:none;
+}
+#tab-imageGallery-content{
+    display:none;
+}
+.description {
+    margin:0;
+}
+#siteplannojs{
+    display:block;
+}
+.hideifnojs{
+    display:block;
+}
+#thumbnailcontainer3 li.dummy {
+    display:none;
+}
+#thumbnailcontainer3 .carouselheader, #thumbnailcontainer3 .prevthumbnail3, #thumbnailcontainer3 .nextthumbnail3,#tab-aboutUs-content .description img, #tab-visitUs-content .description img, #tab-localArea-content .description img, #tab-imageGallery-content #gallerycontainer{
+    display:none;
+}
+#tab-aboutUs-content .description .affiliatelist img{
+    display: inline;
+}
+#thumbnailcontainer3 .holderSml {
+    background:none repeat scroll 0 0 #FFFFFF;
+    border-right:1px solid #CCCCCC;
+    font-size:100%;
+    margin:0 auto;
+    opacity:1;
+    vertical-align:bottom;
+    width:310px;
+    height:350px;
+}
+#thumbnailcontainer3 .imgHolder {
+    height:232px;
+    width:310px;
+}
+#tab-sitePlan-content {
+   	height:405px;
+	overflow:auto;
+    width:920px;
+    margin-top:10px;
+}
+#thumbnailcontainer3 img {
+    max-height:226px;
+    max-width:304px;
+}
+#thumbnailcontainer3 li.selected .holderSml {
+    border-right:1px solid #CCCCCC;
+    border-left:none;
+    border-top:none;
+    border-bottom:none;
+}
+#thumbnailcontainer3 .propertyItem {
+    margin:0;
+    padding: 1em 0;
+}
+#thumbnailcontainer3 #thumbnailcarousel3 {
+    overflow:auto;
+    height:390px;
+    border:1px solid #CCCCCC;
+    margin:15px 15px 15px 25px;
+}
+#thumbnailcontainer3 #thumbnailcarousel3:after {
+    clear:both;
+    content:".";
+    display:block;
+    height:0;
+}
+.eight #mainContentHolder,.seven#mainContentHolder, .six #mainContentHolder, .five #mainContentHolder, .four #mainContentHolder{
+   height: auto;
+}
+#thumbnailcontainer3 ul {
+   left:0; 
+}
+
+/* new homes microsite */
+#thumbnailcontainer4 li.dummy {
+	display:none;
+}
+#thumbnailcontainer4 .carouselheader, #thumbnailcontainer4 .prevthumbnail4, #thumbnailcontainer4 .nextthumbnail4,#tab-aboutUs-content .description img, #tab-visitUs-content .description img, #tab-localArea-content .description img, #tab-imageGallery-content #gallerycontainer{
+	display:none;
+}
+#tab-aboutUs-content .description .affiliatelist img{
+	display: inline;
+}
+#thumbnailcontainer4 .holderSml {
+	background:none repeat scroll 0 0 #FFFFFF;
+	border-right:1px solid #CCCCCC;
+	font-size:100%;
+	margin:0 auto;
+	opacity:1;
+	vertical-align:bottom;
+	width:310px;
+	height:350px;
+}
+#thumbnailcontainer4 .imgHolder {
+	height:232px;
+	width:310px;
+}
+
+#thumbnailcontainer4 img {
+	max-height:226px;
+	max-width:304px;
+}
+#thumbnailcontainer4 li.selected .holderSml {
+	border-right:1px solid #CCCCCC;
+	border-left:none;
+	border-top:none;
+	border-bottom:none;
+}
+#thumbnailcontainer4 .propertyItem {
+	margin:0;
+	padding: 1em 0;
+}
+#thumbnailcontainer4 #thumbnailcarousel4 {
+	overflow:auto;
+	height:390px;
+	border:1px solid #CCCCCC;
+	margin:15px 15px 15px 25px;
+}
+#thumbnailcontainer4 #thumbnailcarousel4:after {
+	clear:both;
+	content:".";
+	display:block;
+	height:0;
+}
+
+#thumbnailcontainer4 ul {
+	left:0;
+}
+/* end of new homes microsite */
+
+/*Overseas*/
+#searchLocation.blur, #searchResultsInput.blur { color: #000000; }
+
+/*students*/
+
+#sortviewcontainer .viewtoggle {display:none;}

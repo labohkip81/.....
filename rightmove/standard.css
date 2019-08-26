@@ -8247,7 +8247,7 @@ body.odin-top-nav #cookiemodalbarplaceholder {
     top: 0;
     right: 0;
     left: 0;
-    height: 50px;
+    height: 100px;
     -webkit-transition: top linear .2s;
     transition: top linear .2s;
     border-bottom: 1px solid #d5d5d5
@@ -8328,7 +8328,7 @@ body.odin-top-nav #cookiemodalbarplaceholder {
 
 .globalNav-content {
     margin: 0;
-    padding: 0;
+    padding: 20px;
     float: right
 }
 
@@ -8355,14 +8355,14 @@ body.odin-top-nav #cookiemodalbarplaceholder {
 .globalNav-link {
     display: block;
     position: relative;
-    height: 50px;
+    height: 100px;
     margin: 0 15px;
     line-height: 30px;
     color: #53535f;
     font-weight: 400;
     text-decoration: none;
     border: 0;
-    padding: 10px;
+    padding: 20px;
     text-align: center
 }
 
@@ -8585,7 +8585,7 @@ body.odin-top-nav #cookiemodalbarplaceholder {
     margin-left: 10px;
     margin-top: 7px;
     margin-right: 15px;
-    float: left
+    float: left;
 }
 
 .globalHeader-logo.overseas {
@@ -8685,7 +8685,7 @@ a.globalNav-link--current {
     height: 37px;
     width: auto;
     margin-left: 10px;
-    margin-top: 12px;
+    margin-top: 30px;
     overflow-x: hidden;
     overflow-y: hidden;
 }

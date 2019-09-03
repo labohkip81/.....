@@ -328,7 +328,11 @@ ol {
 .clearfix:before,
 .clearfix:after {
     content: " ";
-    display: table
+    display: table;
+    visibility: hidden;
+    display: block;
+
+
 }
 
 .clearfix:after {

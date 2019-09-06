@@ -328,7 +328,11 @@ ol {
 .clearfix:before,
 .clearfix:after {
     content: " ";
-    display: table
+    display: table;
+    visibility: hidden;
+    display: block;
+
+
 }
 
 .clearfix:after {
@@ -6563,7 +6567,7 @@ only screen and (min-device-pixel-ratio:1.5) {
 }
 
 #create-account-and-log-in-lightbox-contents .submitset.nospace input {
-    0
+    
 }
 
 #create-account-and-log-in-lightbox-contents .checkbox {

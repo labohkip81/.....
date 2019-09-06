@@ -4072,7 +4072,7 @@ body .list-bullet-darkBlue li:before {
     overflow: hidden;
     position: relative;
     width: 656px;
-    background: #ececec
+    background: #262637
 }
 
 .no-js .gallery-default {
@@ -4145,7 +4145,7 @@ body .list-bullet-darkBlue li:before {
 }
 
 .gallery-thumbs-carousel li {
-    border-right: 3px solid #fff;
+    border-right: 3px solid #262637;
     float: left;
     margin: 0;
     padding: 0
